@@ -1,0 +1,7 @@
+-bubble sort(ordenacao por flutuacao)
+
+-ordenação de maior para menor através de comparação entre dois for loops.
+
+-selection sort(ordenacao por selecao)
+
+-binary search(pesquisa binária) 
