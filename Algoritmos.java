@@ -31,7 +31,7 @@ public class Algoritmos {
 	
 	
 	public int[] doMaiorProMenor(int[] a1) {
-		//sorting with two loops (omega(n²))
+		//sorting with two loops (omega(nÂ²))
 		
 		
 		int espaco = 0;
@@ -62,7 +62,7 @@ public class Algoritmos {
 	
 	
 	public int[] selectionSort(int[] a3) {
-		//forma mais econômica de ordenação do que as duas anteriores porque so varre o array uma vez
+		//forma mais econÃ´mica de ordenaÃ§Ã£o do que as duas anteriores
 		
 		
 		int guarda3 = a3[0];
@@ -100,7 +100,7 @@ public class Algoritmos {
 	
 	public void binarySearch(int[] a, int teclado) {
 		
-		//forma de busca mais eficiente/econômica. precisa que o array esteja ordenado antes
+		//forma de busca mais eficiente/econÃ´mica. precisa que o array esteja ordenado antes
 		int[] a4 = this.selectionSort(a);
 		
 		int j;
@@ -113,7 +113,7 @@ public class Algoritmos {
 			j =(i+tamanho)/2;
 			
 			if(a4[j] == teclado) {
-				System.out.println("Número encontrado na posição: "+j);
+				System.out.println("NÃºmero encontrado na posiÃ§Ã£o: "+j);
 				break;
 			}
 			else if(a4[j]>teclado)
@@ -123,7 +123,7 @@ public class Algoritmos {
 			
 			
 			if(tamanho<i) {
-				System.out.println("Número não encontrado");
+				System.out.println("NÃºmero nÃ£o encontrado");
 				break;
 			}					
 		}
